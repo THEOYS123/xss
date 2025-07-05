@@ -1,4 +1,4 @@
-![tampilan tools dan hasilnya](https://ngoprek.xyz/u/r/renx_686956223d4c13.45600459.jpg)
+<img src="https://ngoprek.xyz/u/r/renx_686956223d4c13.45600459.jpg" alt="Gambar" width="300"/>
 
 ---
 
