@@ -1,3 +1,7 @@
+![tampilan tools dan hasilnya](https://ngoprek.xyz/u/r/renx_686956223d4c13.45600459.jpg)
+
+---
+
 # xss
 script ini bertujuan untuk menguji kerentanan xss reflected dan tidak untuk di salah gunakan, btw ini script khusus untuk tim gw, yg laen nya bole pake juga. mau recode? bole tapi minimal bilang dulu ke gw. 
 
