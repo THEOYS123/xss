@@ -11,7 +11,7 @@ YELLOW='\x1b[93m'
 BLUE='\x1b[94m'
 RESET='\x1b[0m'
 hasil_scan=[]
-def load_user_agents(filename='useragents.txt'):
+def load_user_agents(filename='user.txt'):
 	if not os.path.exists(filename):print(f"{YELLOW}[!] File 'useragents.txt' tidak ditemukan, pakai default user-agent.{RESET}");return['Mozilla/5.0 (Windows NT 10.0; Win64; x64)','Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)','Mozilla/5.0 (X11; Linux x86_64)','Mozilla/5.0 (Linux; Android 9; Mobile; rv:91.0)','Googlebot/2.1 (+http://www.google.com/bot.html)']
 	with open(filename,'r')as f:return[ua.strip()for ua in f if ua.strip()]
 def random_headers(user_agents):return{'User-Agent':random.choice(user_agents),'X-Forwarded-For':f"{random.randint(1,255)}.{random.randint(0,255)}.{random.randint(0,255)}.{random.randint(1,254)}",'X-Real-IP':'127.0.0.1','Referer':'https://google.com','Cookie':f"SESSIONID={random.randint(100000,999999)}",'Connection':'keep-alive'}
