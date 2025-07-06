@@ -1,4 +1,4 @@
-![hasil] (hajajajaja)
+![hasil] (IMG_20250705_232515.jpg)
 
 ---
 
@@ -8,10 +8,14 @@ script ini bertujuan untuk menguji kerentanan xss reflected dan tidak untuk di s
 ---
 
 # install tools 1 tap
+
 ```
-pkg update -y && pkg upgrade -y && pkg install python git -y && pip install requests && git clone https://github.com/THEOYS123/xss.git && cd xss && clear && python xss.py```
+pkg update -y && pkg upgrade -y && pkg install python git -y && pip install requests && git clone https://github.com/THEOYS123/xss.git && cd xss && clear && python xss.py
+```
 
 
 # update tools 1 tap
+
 ```
-cd && rm -rf xss && git clone https://github.com/THEOYS123/xss.git && cd xss && pip install requests && clear && python xss.py```
+cd && rm -rf xss && git clone https://github.com/THEOYS123/xss.git && cd xss && pip install requests && clear && python xss.py
+```
