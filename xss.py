@@ -45,7 +45,7 @@ url=input('Masukkan URL target (kosong param, contoh: https://target.com/page.ph
 if not url.startswith('http://')and not url.startswith('https://'):print(f"{RED}[!] URL harus diawali http:// atau https://{RESET}");exit()
 payload_file=input('Masukkan nama file payload (contoh: payload.txt): ').strip()
 hasil_file=input('Masukkan nama file untuk menyimpan hasil (contoh: hasil.txt): ').strip()
-encrypt_input=input('Gunakan encoded/encrypt payload? (y/n): ').strip().lower()
+encrypt_input=input('untuk payload nya mau di Enceypt atau engga? (y/n): ').strip().lower()
 use_encrypt=encrypt_input=='y'
 try:timeout=int(input('Masukkan timeout (default 5): ').strip()or 5)
 except:timeout=5
