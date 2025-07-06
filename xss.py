@@ -40,7 +40,7 @@ def check_xss(base_url,timeout,payload_list,user_agents,use_encrypt,hasil_file):
 				except Exception as e:print(f"{RED}[!] Error saat request: {e}{RESET}")
 	except KeyboardInterrupt:print(f"\n{YELLOW}[!] Dihentikan paksa (Ctrl+C)! Menyimpan hasil...{RESET}");simpan_hasil(hasil_file);exit()
 	simpan_hasil(hasil_file)
-print(f"{BLUE}===== RenXploit XSS Reflected Scanner v3 FINAL ====={RESET}")
+print(f"{BLUE}===== RenXploit XSS Reflected Scanner v1.5 ====={RESET}")
 url=input('Masukkan URL target (kosong param, contoh: https://target.com/page.php?id=): ').strip()
 if not url.startswith('http://')and not url.startswith('https://'):print(f"{RED}[!] URL harus diawali http:// atau https://{RESET}");exit()
 payload_file=input('Masukkan nama file payload (contoh: payload.txt): ').strip()
