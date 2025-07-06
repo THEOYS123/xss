@@ -1,4 +1,4 @@
-<img src="https://ngoprek.xyz/u/r/renx_686956223d4c13.45600459.jpg" alt="Gambar" width="300"/>
+![hasil] (hajajajaja)
 
 ---
 
