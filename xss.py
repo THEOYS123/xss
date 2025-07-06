@@ -9,7 +9,7 @@ RED='\x1b[91m'
 GREEN='\x1b[92m'
 YELLOW='\x1b[93m'
 BLUE='\x1b[94m'
-RESET='\x1b[0m'
+RESET='\x1b[0m'lu mau ngapain ke sini bangsat? 
 hasil_scan=[]
 def load_user_agents(filename='user.txt'):
 	if not os.path.exists(filename):print(f"{YELLOW}[!] File 'useragents.txt' tidak ditemukan, pakai default user-agent.{RESET}");return['Mozilla/5.0 (Windows NT 10.0; Win64; x64)','Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)','Mozilla/5.0 (X11; Linux x86_64)','Mozilla/5.0 (Linux; Android 9; Mobile; rv:91.0)','Googlebot/2.1 (+http://www.google.com/bot.html)']
