@@ -14,5 +14,4 @@ pkg update -y && pkg upgrade -y && pkg install python git -y && pip install requ
 
 # update tools 1 tap
 ```
-```
 cd && rm -rf xss && git clone https://github.com/THEOYS123/xss.git && cd xss && pip install requests && clear && python xss.py```
